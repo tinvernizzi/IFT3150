@@ -1,4 +1,4 @@
-## Welcome to GitHub Pages
+## IFT3150 : Projet d'informatique
 
 You can use the [editor on GitHub](https://github.com/tinvernizzi/IFT3150/edit/master/index.md) to maintain and preview the content for your website in Markdown files.
 
