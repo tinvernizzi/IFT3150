@@ -47,5 +47,3 @@ Les feature models sont utilisés pour identifier les différences et similitude
 ## PEoPL et Features Models
 
 Le chapitre 4 de P12 ("Modeling and managing variability", page 60) parle de la facon dont PEoPL est utilisé pour configurer une software product line, et comment il aide à gérer la complexité et la validité de celle-ci. PEoPL utilise un langage dédié pour permettre à ses utilisateurs de décrire leur software product line. PEoPL permet notamment de déclarer des contraintes grâce à des opérateurs logiques.
-
-In software development, a feature model is a compact representation of all the products of the Software Product Line (SPL) in terms of "features". Feature
