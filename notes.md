@@ -3,9 +3,11 @@ title: Notes
 permalink: notes.html
 ---
 
-# Notes 
+# Notes
 
-Je publie ici les notes que je prends quand je travaille sur les différents papiers. Je décris généralement les principaux concepts et termes utilisés dans ce projet. 
+Je publie ici les notes que je prends quand je travaille sur les différents papiers. Je décris généralement les principaux concepts et termes utilisés dans ce projet.
+
+### La différence entre les choix liés aux fonctionnalités (features) et leur implémentation (design decision)
 
 ### Domain-Specific Language / Langage dédié
 
@@ -34,6 +36,16 @@ Un éditeur de code classique est un éditeur texte. Ce texte est ensuite lu par
 
 ### Partial Model / Les modéles partiels
 
-Dans l'ingénierie dirigée par les modèles (MDE), il est difficile, voir impossible, de raisonner et de se servir d'un modèle incomplet. Ceux-ci sont vus comme des objets inutilisables : ils sont une étape vers le modèle qui sera finalement utilisé. Les papiers P1 et P6 introduisent l'idée des modèles partiels et leurs principales caractéristiques. Les modèles partiels sont une abstraction de toutes les possibilités de modélisation d'une solution. Ces modèles peuvent être utilisés pour modéliser n'importe quelle incertitude dans un aspect du produit, de la spécification à l'implémentation technique. 
+Dans l'ingénierie dirigée par les modèles (MDE), il est difficile, voir impossible, de raisonner et de se servir d'un modèle incomplet. Ceux-ci sont vus comme des objets inutilisables : ils sont une étape vers le modèle qui sera finalement utilisé. Les papiers P1 et P6 introduisent l'idée des modèles partiels et leurs principales caractéristiques. Les modèles partiels sont une abstraction de toutes les possibilités de modélisation d'une solution. Ces modèles peuvent être utilisés pour modéliser n'importe quelle incertitude dans un aspect du produit, de la spécification à l'implémentation technique.
 
 Le papier P2 continue le travail débuté sur P1. Le but ultime de ces papiers est de trouver de meilleurs moyens de gérer l'incertitude dans l'ingénierie dirigée par les modèles : au lieu de la voir comme un poids dont on doit se débarrasser le plus vite possible, on la voit comme un outil permettant de prendre de meilleures décisions.
+
+### Features Models
+
+Les feature models sont utilisés pour identifier les différences et similitudes entre tous les produits d'une même software product line. Chaque caractéristique, ou feature, peut être un préalable, un composant ou un morceau de code.
+
+## PEoPL et Features Models
+
+Le chapitre 4 de P12 ("Modeling and managing variability", page 60) parle de la facon dont PEoPL est utilisé pour configurer une software product line, et comment il aide à gérer la complexité et la validité de celle-ci. PEoPL utilise un langage dédié pour permettre à ses utilisateurs de décrire leur software product line. PEoPL permet notamment de déclarer des contraintes grâce à des opérateurs logiques.
+
+In software development, a feature model is a compact representation of all the products of the Software Product Line (SPL) in terms of "features". Feature
