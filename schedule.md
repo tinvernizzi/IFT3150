@@ -49,4 +49,11 @@ J'ai également fais une présentation du papier P4. Les slides sont disponibles
 
 ## Semaine 7 : 27 Février au 6 Mars 2018
 
-Semaine de relâche.
+Semaine de relâche
+
+## Mois de Mars
+
+Pendant le mois de mars, j'ai travaillé sur un projet implémentant la plupart des choses que j'ai vues auparavant. Ce projet s'appelle GoSPeL : Git Editing of Software Product Lines, et le but de celui-ci est de créer un outil permettant de gérer des SPL avec Git. J'ai utilisé deux nouveaux papiers pour guider mon travail :
+
+- P13 : [Feature Diagrams: A Survey and a Formal Semantics](https://pdfs.semanticscholar.org/4db9/563f780017728cefb7d0baee012263ae251a.pdf) par Christoph Seidl
+- P14 : [Integrated Management of Variability in Space and Time in Software Families](http://www.qucosa.de/fileadmin/data/qucosa/documents/21803/Dissertation_Christoph_Seidl.pdf) par Pierre-Yves Schobbens, Patrick Heymans, Jean-Christophe Trigaux et Yves Bontemps
